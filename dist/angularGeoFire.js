@@ -1,3 +1,7 @@
+/**
+ * Created by Mike Pugh on 05/27/2014. MIT License.
+
+ */
 (function () {
   'use strict';
   var AngularGeoFire;
@@ -79,6 +83,9 @@
             return _geoQuery.on(eventType, function (key, location, distance) {
               self._rootScope.$broadcast(broadcastName, key, location, distance);
             });
+          },
+          onCallback: function (eventType, callback) {
+            return _geoQuery.on(eventType, callback);
           },
           cancel: function () {
             _geoQuery.cancel();

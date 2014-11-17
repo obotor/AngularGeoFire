@@ -84,6 +84,9 @@
               self._rootScope.$broadcast(broadcastName, key, location, distance);
             });
           },
+          onCallback: function(eventType, callback) {
+            return _geoQuery.on(eventType, callback);
+          },
           cancel: function () {
             _geoQuery.cancel();
           }
