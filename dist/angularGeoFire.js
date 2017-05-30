@@ -1,6 +1,6 @@
 /**
  * Created by Mike Pugh on 05/27/2014. MIT License.
-
+ * Modified by Olivier Bonnet-Torres on 05/30/2017 to match Firebase sdk3 & GeoFire 4.x.
  */
 (function () {
   'use strict';

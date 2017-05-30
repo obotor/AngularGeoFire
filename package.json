@@ -1,6 +1,6 @@
 {
   "name": "AngularGeoFire",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "",
   "main": "angulareGeoFire.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "firebase",
     "geofire"
   ],
-  "author": "Mike Pugh",
+  "author": "Mike Pugh, Olivier Bonnet-Torrès",
   "license": "MIT",
   "devDependencies": {
     "grunt": "~0.4.2",
